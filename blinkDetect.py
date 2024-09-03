@@ -25,7 +25,7 @@ RESIZE_HEIGHT = 460
 
 thresh = 0.27
 modelPath = "models/shape_predictor_70_face_landmarks.dat"
-sound_path = "alarm.wav"
+sound_path = "./assets/alarm.wav"
 
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(modelPath)
