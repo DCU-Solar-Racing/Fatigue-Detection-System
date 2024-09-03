@@ -1,1 +1,5 @@
-venv
+# ignore all venv and env files
+venv*/
+.venv*/
+env*/
+.env*/
