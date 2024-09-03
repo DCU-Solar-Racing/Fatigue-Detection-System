@@ -45,10 +45,46 @@
 
 <img src="./assets/eye_aspect_ratio.PNG">
 
-## Execution
+## Execute the code
 
-To run the code, run
+To run the code, follow these steps:
 
+### 1. Create a Virtual Environment
+
+First, create a virtual environment to isolate your dependencies:
+
+```sh
+python3 -m venv venv
 ```
-python blinkDetect.py
+
+### 2. Activate the Virtual Environment
+
+Next, activate the virtual environment. For Linux or macOS, use:
+
+```sh
+source venv/bin/activate
+```
+
+_Note: On Windows, the command is slightly different_
+
+```sh
+.\venv\Scripts\activate
+```
+
+or
+
+```sh
+source venv\Scripts\activate
+```
+
+### 3. Install the requirements
+
+```sh
+pip install -r requirements.txt
+```
+
+### 4. Run the code
+
+```sh
+python3 blinkDetect.py
 ```
