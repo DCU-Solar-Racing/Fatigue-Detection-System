@@ -73,8 +73,10 @@ _Note: On Windows, the command is slightly different_
 
 or
 
+Git Bash
+
 ```sh
-source venv\Scripts\activate
+source venv/Scripts/activate
 ```
 
 ### 3. Install the requirements
